@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#topheader_rijn {
+    margin-left: 150px;
+    max-width: 270px;
+    font-size: 64px;
+    background-color: aqua;
+    
+}
+
+
+#finnimage {
+    margin-top: 64px;
+    top: 60px;
+    width: 100vw;
+    box-sizing: inherit;
+    height: 350px;
+    object-fit: cover;
+    
+}
