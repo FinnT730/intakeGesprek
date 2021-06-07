@@ -1,20 +1,65 @@
 @charset "utf-8";
 
+
+.flex-holder {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-holder > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    /* padding: 20px; */
+    font-size: 30px;
+  }
+
+
 #topheader_rijn {
     margin-left: 150px;
     max-width: 270px;
     font-size: 64px;
     background-color: aqua;
     
+    display:flex;
+    
 }
 
 
 #finnimage {
-    margin-top: 64px;
-    top: 60px;
+    /* margin-top: 64px;
+    top: 30px; */
     width: 100vw;
     box-sizing: inherit;
     height: 350px;
     object-fit: cover;
-    
+}
+
+
+#inmgtext , #imgsmalltext {
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+.boxes {
+    /* border-top-style: dashed; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    float: left;
+    place-items: center;
+ }
+
+ #html5img {
+    /* position: absolute; */
+    /* top: 545px; */
+    top: 58vh;
+    left: 20vw;
+}
+
+#cssimg {
+    position: absolute;
+    /* top: 545px; */
+    top: 61vh;
+    left: 49vw;
 }
